@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
 	int menu = 0;
-	int min = 0;
-	int max = 0;
+	int min;
+	int max;
 	int result;
 
 	while (true)
@@ -32,7 +32,7 @@ int main()
 		switch (menu)
 		{
 		case 0:
-			return;
+			return 0;
 
 		case 1:
 			for (int i = min; i <= max; i++)
